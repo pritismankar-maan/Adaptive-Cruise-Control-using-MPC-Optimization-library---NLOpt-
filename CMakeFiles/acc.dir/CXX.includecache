@@ -1,0 +1,74 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/maan/Desktop/c++ code test/adaptive_cruise_control/ego.cpp
+iostream
+-
+random
+-
+leadcar.hpp
+/home/maan/Desktop/c++ code test/adaptive_cruise_control/leadcar.hpp
+leadcar.cpp
+/home/maan/Desktop/c++ code test/adaptive_cruise_control/leadcar.cpp
+ego.hpp
+/home/maan/Desktop/c++ code test/adaptive_cruise_control/ego.hpp
+
+/home/maan/Desktop/c++ code test/adaptive_cruise_control/ego.hpp
+leadcar.hpp
+/home/maan/Desktop/c++ code test/adaptive_cruise_control/leadcar.hpp
+
+/home/maan/Desktop/c++ code test/adaptive_cruise_control/leadcar.cpp
+leadcar.hpp
+/home/maan/Desktop/c++ code test/adaptive_cruise_control/leadcar.hpp
+
+/home/maan/Desktop/c++ code test/adaptive_cruise_control/leadcar.hpp
+vector
+-
+
+/home/maan/Desktop/c++ code test/adaptive_cruise_control/main.cpp
+iostream
+-
+mpc.cpp
+/home/maan/Desktop/c++ code test/adaptive_cruise_control/mpc.cpp
+
+/home/maan/Desktop/c++ code test/adaptive_cruise_control/mpc.cpp
+iostream
+-
+/usr/local/include/nlopt.hpp
+-
+ego.hpp
+/home/maan/Desktop/c++ code test/adaptive_cruise_control/ego.hpp
+ego.cpp
+/home/maan/Desktop/c++ code test/adaptive_cruise_control/ego.cpp
+mpc.hpp
+/home/maan/Desktop/c++ code test/adaptive_cruise_control/mpc.hpp
+chrono
+-
+
+/home/maan/Desktop/c++ code test/adaptive_cruise_control/mpc.hpp
+/usr/local/include/nlopt.hpp
+-
+ego.hpp
+/home/maan/Desktop/c++ code test/adaptive_cruise_control/ego.hpp
+
+/usr/local/include/nlopt.hpp
+nlopt.h
+-
+vector
+-
+stdexcept
+-
+new
+-
+cstdlib
+-
+cstring
+-
+cmath
+-
+
